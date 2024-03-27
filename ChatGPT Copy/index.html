@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clone of ChatGPT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="default-text">
+      <h1>Clone of ChatGPT</h1>
+    </div>
+    <div class="chat-container"></div>
+    <div class="typing-container">
+      <div class="typing-content">
+        <div class="typing-textarea">
+          <textarea
+            id="chat-input"
+            placeholder="Enter a prompt here..."
+            required
+          ></textarea>
+          <span id="send-btn" class="material-symbols-outlined"> send </span>
+        </div>
+        <div class="typing-controls">
+          <span id="theme-btn" class="material-symbols-outlined">
+            light_mode
+          </span>
+          <span id="delete-btn" class="material-symbols-outlined">
+            delete
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
